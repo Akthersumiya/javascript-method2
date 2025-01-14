@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- text hidden -->
+
+<style>
+        .HiddenText{
+    display:none ;
+}
+     </style>
+</head>
+<body>
+<h1 id="demo" >This is hide massage</h1>   
+ <button style="padding: 10px; width: full;" onclick="HiddenText()">click</button>
+
+
+ <script>
+    function HiddenText(){
+        document.getElementById('demo').classList.toggle('HiddenText')
+    }
+ </script>
+ <!--  text hidden end -->
+<!-- light on/off -->
+<h1 style="display: flex; align-items: center; justify-content: center; font-size: 40px;">💡Light On/Off System
+</h1>
+<div style="display: flex; justify-content: center; align-items: center;">
+
+<img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="">
+</div>
+
+<div style="padding: 10px; width: full; display: flex; align-items: center; justify-content: center; gap: 10px;">
+<button onclick="bulbOn()">Turn on</button>
+<button onclick="bulbOff()">Turn off</button>
+</div>
+
+<script>
+function bulbOn(){
+    document.getElementById('myImage').src="https://www.w3schools.com/js/pic_bulbon.gif" 
+}
+
+function bulbOff(){
+document.getElementById('myImage').src="https://www.w3schools.com/js/pic_bulboff.gif" 
+}
+</script>
+<!-- light on/off end -->
+</body>
+</html>

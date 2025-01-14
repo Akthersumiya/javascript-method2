@@ -23,17 +23,26 @@
     }
  </script>
  <!--  text hidden end -->
+
+
 <!-- light on/off -->
+<style>
+    myImage{
+        transition: opacity;
+    }
+</style>
+
+
 <h1 style="display: flex; align-items: center; justify-content: center; font-size: 40px;">💡Light On/Off System
 </h1>
-<div style="display: flex; justify-content: center; align-items: center;">
+<div style="display: flex; justify-content: center; align-items: center; ">
 
-<img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="">
+<img id="myImage" style="width: 200px;" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="">
 </div>
 
-<div style="padding: 10px; width: full; display: flex; align-items: center; justify-content: center; gap: 10px;">
-<button onclick="bulbOn()">Turn on</button>
-<button onclick="bulbOff()">Turn off</button>
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 20px; gap: 10px;">
+<button style="padding: 10px; border-radius: 5px; background-color: brown; color: aliceblue; width: 100px;" onclick="bulbOn()">Turn on</button>
+<button style="padding: 10px; border-radius: 5px; background-color: green; color: aliceblue; width: 100px;"  onclick="bulbOff()">Turn off</button>
 </div>
 
 <script>

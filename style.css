@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px ;
+}
+input, button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.taskBtn{
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.taskBtn:hover{
+    background-color: rgb(23, 141, 23);
+}

@@ -19,3 +19,12 @@ input, button{
 .taskBtn:hover{
     background-color: rgb(23, 141, 23);
 }
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin-top: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
